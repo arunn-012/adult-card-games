@@ -1,0 +1,20 @@
+var position = [
+    "p1.gif",
+    "p2.gif",
+    "p3.gif",
+    "p4.gif",
+    "p5.gif",
+    "p6.gif",
+    "p7.gif",
+    "p8.gif",
+    "p9.gif",
+    "p10.gif",
+    "p11.gif",
+    "p12.gif",
+    "p13.gif",
+    "p14.gif",
+    "p15.gif",
+    "p16.gif",
+    "p17.gif",
+
+]
