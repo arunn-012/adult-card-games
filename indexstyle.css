@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html, body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    padding: 5vw 3vw;
+    position: relative;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.flip-card {
+  width: 25%;
+  height: 60%;
+  /* display: none; */
+  /* opacity : 0; */
+  background-color: rgb(137, 17, 158);
+  margin-bottom: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7vw;
+  border-radius: 12px;
+  
+}
+.flip-card img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 12px;
+  outline: none;
+}
+button{
+  position: relative;
+  font-size: 1.6vw;
+  padding: .6vw;
+  border-radius: 12px;
+  outline: none;
+  background: none;
+  border: 2px solid burlywood;
+  margin-bottom: 1vw;
+}
+@media (max-width : 600px) {
+  .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    padding: 5vw 3vw;
+    position: relative;
+    flex-direction: column;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+  .flip-card {
+  width: 75%;
+  height: 60%;
+  /* display: none; */
+  /* opacity : 0; */
+  background-color: rgb(137, 17, 158);
+  margin-bottom: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7vw;
+  border-radius: 12px;
+  margin-top: 9vw;
+  
+}
+.flip-card img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 12px;
+  outline: none;
+}
+button{
+  position: relative;
+  font-size: 6vw;
+  padding: 1vw 4vw;
+  border-radius: 12px;
+  outline: none;
+  background: none;
+  border: 2px solid burlywood;
+  background-color: #9f6347;
+}
+#show{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  background-color: #704239;
+
+}
+}
+
