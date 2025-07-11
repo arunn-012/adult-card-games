@@ -20,11 +20,9 @@ img.src = "a1.jpg"
   duration : 0.4,
  })
 })
-// a.addEventListener("click" , () => {
-//   flipCrd.forEach((e) ={})
-//   gsap.to( e , {
-//     opacity : 1,
-
-//   })
-// })
-const mediaQuery = window.matchMedia('(max-width: 768px)');
+gsap.to(".left h1" , {
+ x : -100,
+ opacity : 1,
+ duration : 0.7,
+ delay : 0.5
+})
