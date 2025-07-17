@@ -94,11 +94,15 @@ button{
   position: relative;
   font-size: 6vw;
   padding: 1vw 4vw;
-  border-radius: 12px;
-  outline: none;
-  background: none;
   border: 2px solid burlywood;
-  background-color: #9f6347;
+  border-radius: 50px;
+  background-image: linear-gradient(135deg, #feb692 0%, #ea5455 100%);
+  box-shadow: 0 20px 30px -6px rgba(238, 103, 97, 0.5);
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
 }
 #show{
   margin-top: 5vw;
